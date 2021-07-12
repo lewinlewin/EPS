@@ -1,0 +1,411 @@
+2020-08-17 14:06:00 [ INFO ] Build command: 
+2020-08-17 14:06:00 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/AscendProjects/sample-handposeRC/build/intermediates && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/AscendProjects/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2020-08-17 14:06:00 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2020-08-17 14:06:01 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2020-08-17 14:06:01 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2020-08-17 14:06:01 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2020-08-17 14:06:01 [ INFO ] -- Detecting C compiler ABI info
+2020-08-17 14:06:01 [ INFO ] -- Detecting C compiler ABI info - done
+2020-08-17 14:06:01 [ INFO ] -- Detecting C compile features
+2020-08-17 14:06:01 [ INFO ] -- Detecting C compile features - done
+2020-08-17 14:06:01 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2020-08-17 14:06:01 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2020-08-17 14:06:01 [ INFO ] -- Detecting CXX compiler ABI info
+2020-08-17 14:06:01 [ INFO ] -- Detecting CXX compiler ABI info - done
+2020-08-17 14:06:01 [ INFO ] -- Detecting CXX compile features
+2020-08-17 14:06:01 [ INFO ] -- Detecting CXX compile features - done
+2020-08-17 14:06:01 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2020-08-17 14:06:01 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2020-08-17 14:06:01 [ INFO ] -- Configuring done
+2020-08-17 14:06:01 [ INFO ] -- Generating done
+2020-08-17 14:06:01 [ INFO ] -- Build files have been written to: /home/ascend/AscendProjects/sample-handposeRC/build/intermediates
+2020-08-17 14:06:01 [ INFO ] Scanning dependencies of target main
+2020-08-17 14:06:01 [ INFO ] [  8%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-08-17 14:06:01 [ INFO ] [ 16%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2020-08-17 14:06:02 [ INFO ] [ 25%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2020-08-17 14:06:02 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2020-08-17 14:06:03 [ INFO ] [ 41%] Building CXX object src/CMakeFiles/main.dir/dvpp_process.cpp.o
+2020-08-17 14:06:03 [ INFO ] [ 50%] Building CXX object src/CMakeFiles/main.dir/dvpp_resize.cpp.o
+2020-08-17 14:06:03 [ INFO ] [ 58%] Building CXX object src/CMakeFiles/main.dir/dvpp_jpege.cpp.o
+2020-08-17 14:06:04 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/main.dir/handpose_decode.cpp.o
+2020-08-17 14:06:04 [ INFO ] [ 75%] Building CXX object src/CMakeFiles/main.dir/i2c.cpp.o
+2020-08-17 14:06:04 [ INFO ] [ 83%] Building CXX object src/CMakeFiles/main.dir/uart.cpp.o
+2020-08-17 14:06:04 [ INFO ] [ 91%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-08-17 14:06:05 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2020-08-17 14:06:05 [ INFO ] [100%] Built target main
+2020-08-17 14:06:05 [ INFO ] sample-handposeRC build successfully.
+2021-05-06 00:37:10 [ INFO ] Build command: 
+2021-05-06 00:37:10 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && rm -rf * && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-06 00:37:11 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2021-05-06 00:37:11 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2021-05-06 00:37:11 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2021-05-06 00:37:11 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2021-05-06 00:37:11 [ INFO ] -- Detecting C compiler ABI info
+2021-05-06 00:37:11 [ INFO ] -- Detecting C compiler ABI info - done
+2021-05-06 00:37:11 [ INFO ] -- Detecting C compile features
+2021-05-06 00:37:11 [ INFO ] -- Detecting C compile features - done
+2021-05-06 00:37:11 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2021-05-06 00:37:11 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2021-05-06 00:37:11 [ INFO ] -- Detecting CXX compiler ABI info
+2021-05-06 00:37:11 [ INFO ] -- Detecting CXX compiler ABI info - done
+2021-05-06 00:37:11 [ INFO ] -- Detecting CXX compile features
+2021-05-06 00:37:11 [ INFO ] -- Detecting CXX compile features - done
+2021-05-06 00:37:11 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-06 00:37:11 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-06 00:37:11 [ INFO ] -- Configuring done
+2021-05-06 00:37:11 [ INFO ] -- Generating done
+2021-05-06 00:37:11 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-06 00:37:11 [ INFO ] Scanning dependencies of target main
+2021-05-06 00:37:11 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2021-05-06 00:37:16 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2021-05-06 00:37:18 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2021-05-06 00:37:19 [ INFO ] [ 44%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-05-06 00:37:21 [ INFO ] [ 55%] Building CXX object src/CMakeFiles/main.dir/handpose_decode.cpp.o
+2021-05-06 00:37:21 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/main.dir/i2c.cpp.o
+2021-05-06 00:37:23 [ INFO ] [ 77%] Building CXX object src/CMakeFiles/main.dir/uart.cpp.o
+2021-05-06 00:37:24 [ INFO ] [ 88%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2021-05-06 00:37:26 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2021-05-06 00:37:27 [ INFO ] [100%] Built target main
+2021-05-06 00:37:27 [ INFO ] sample-handposeRC build successfully.
+2021-05-06 00:41:21 [ INFO ] Build command: 
+2021-05-06 00:41:21 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-06 00:41:21 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-06 00:41:21 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-06 00:41:21 [ INFO ] -- Configuring done
+2021-05-06 00:41:21 [ INFO ] -- Generating done
+2021-05-06 00:41:21 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-06 00:41:21 [ INFO ] [100%] Built target main
+2021-05-06 00:41:21 [ INFO ] sample-handposeRC build successfully.
+2021-05-06 00:41:33 [ INFO ] Build command: 
+2021-05-06 00:41:33 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-06 00:41:33 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-06 00:41:33 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-06 00:41:33 [ INFO ] -- Configuring done
+2021-05-06 00:41:33 [ INFO ] -- Generating done
+2021-05-06 00:41:33 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-06 00:41:33 [ INFO ] [100%] Built target main
+2021-05-06 00:41:33 [ INFO ] sample-handposeRC build successfully.
+2021-05-13 02:27:14 [ INFO ] Build command: 
+2021-05-13 02:27:14 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && rm -rf * && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-13 02:27:15 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2021-05-13 02:27:15 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2021-05-13 02:27:15 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2021-05-13 02:27:16 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2021-05-13 02:27:16 [ INFO ] -- Detecting C compiler ABI info
+2021-05-13 02:27:16 [ INFO ] -- Detecting C compiler ABI info - done
+2021-05-13 02:27:16 [ INFO ] -- Detecting C compile features
+2021-05-13 02:27:16 [ INFO ] -- Detecting C compile features - done
+2021-05-13 02:27:16 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2021-05-13 02:27:17 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2021-05-13 02:27:17 [ INFO ] -- Detecting CXX compiler ABI info
+2021-05-13 02:27:17 [ INFO ] -- Detecting CXX compiler ABI info - done
+2021-05-13 02:27:17 [ INFO ] -- Detecting CXX compile features
+2021-05-13 02:27:17 [ INFO ] -- Detecting CXX compile features - done
+2021-05-13 02:27:17 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-13 02:27:17 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-13 02:27:17 [ INFO ] -- Configuring done
+2021-05-13 02:27:17 [ INFO ] -- Generating done
+2021-05-13 02:27:17 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-13 02:27:18 [ INFO ] Scanning dependencies of target main
+2021-05-13 02:27:18 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2021-05-13 02:27:26 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2021-05-13 02:27:31 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2021-05-13 02:27:37 [ INFO ] [ 44%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-05-13 02:27:42 [ INFO ] [ 55%] Building CXX object src/CMakeFiles/main.dir/handpose_decode.cpp.o
+2021-05-13 02:27:43 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/main.dir/i2c.cpp.o
+2021-05-13 02:27:48 [ INFO ] [ 77%] Building CXX object src/CMakeFiles/main.dir/uart.cpp.o
+2021-05-13 02:27:54 [ INFO ] [ 88%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2021-05-13 02:27:59 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2021-05-13 02:28:00 [ INFO ] [100%] Built target main
+2021-05-13 02:28:00 [ INFO ] sample-handposeRC build successfully.
+2021-05-13 07:20:39 [ INFO ] Build command: 
+2021-05-13 07:20:39 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && rm -rf * && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-13 07:20:41 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2021-05-13 07:20:42 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2021-05-13 07:20:42 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2021-05-13 07:20:43 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2021-05-13 07:20:43 [ INFO ] -- Detecting C compiler ABI info
+2021-05-13 07:20:43 [ INFO ] -- Detecting C compiler ABI info - done
+2021-05-13 07:20:43 [ INFO ] -- Detecting C compile features
+2021-05-13 07:20:43 [ INFO ] -- Detecting C compile features - done
+2021-05-13 07:20:43 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2021-05-13 07:20:43 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2021-05-13 07:20:43 [ INFO ] -- Detecting CXX compiler ABI info
+2021-05-13 07:20:44 [ INFO ] -- Detecting CXX compiler ABI info - done
+2021-05-13 07:20:44 [ INFO ] -- Detecting CXX compile features
+2021-05-13 07:20:44 [ INFO ] -- Detecting CXX compile features - done
+2021-05-13 07:20:44 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-13 07:20:44 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-13 07:20:44 [ INFO ] -- Configuring done
+2021-05-13 07:20:44 [ INFO ] -- Generating done
+2021-05-13 07:20:44 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-13 07:20:44 [ INFO ] Scanning dependencies of target main
+2021-05-13 07:20:44 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2021-05-13 07:20:56 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2021-05-13 07:21:02 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2021-05-13 07:21:07 [ INFO ] [ 44%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-05-13 07:21:14 [ INFO ] [ 55%] Building CXX object src/CMakeFiles/main.dir/handpose_decode.cpp.o
+2021-05-13 07:21:14 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/main.dir/i2c.cpp.o
+2021-05-13 07:21:20 [ INFO ] [ 77%] Building CXX object src/CMakeFiles/main.dir/uart.cpp.o
+2021-05-13 07:21:26 [ INFO ] [ 88%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2021-05-13 07:21:31 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2021-05-13 07:21:32 [ INFO ] [100%] Built target main
+2021-05-13 07:21:32 [ INFO ] sample-handposeRC build successfully.
+2021-05-13 07:31:09 [ INFO ] Build command: 
+2021-05-13 07:31:09 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && rm -rf * && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-13 07:31:09 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2021-05-13 07:31:09 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2021-05-13 07:31:09 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2021-05-13 07:31:10 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2021-05-13 07:31:10 [ INFO ] -- Detecting C compiler ABI info
+2021-05-13 07:31:10 [ INFO ] -- Detecting C compiler ABI info - done
+2021-05-13 07:31:10 [ INFO ] -- Detecting C compile features
+2021-05-13 07:31:10 [ INFO ] -- Detecting C compile features - done
+2021-05-13 07:31:10 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2021-05-13 07:31:11 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2021-05-13 07:31:11 [ INFO ] -- Detecting CXX compiler ABI info
+2021-05-13 07:31:11 [ INFO ] -- Detecting CXX compiler ABI info - done
+2021-05-13 07:31:11 [ INFO ] -- Detecting CXX compile features
+2021-05-13 07:31:11 [ INFO ] -- Detecting CXX compile features - done
+2021-05-13 07:31:11 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-13 07:31:11 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-13 07:31:11 [ INFO ] -- Configuring done
+2021-05-13 07:31:11 [ INFO ] -- Generating done
+2021-05-13 07:31:11 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-13 07:31:11 [ INFO ] Scanning dependencies of target main
+2021-05-13 07:31:12 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2021-05-13 07:31:18 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2021-05-13 07:31:23 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2021-05-13 07:31:29 [ INFO ] [ 44%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-05-13 07:31:34 [ INFO ] [ 55%] Building CXX object src/CMakeFiles/main.dir/handpose_decode.cpp.o
+2021-05-13 07:31:35 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/main.dir/i2c.cpp.o
+2021-05-13 07:31:40 [ INFO ] [ 77%] Building CXX object src/CMakeFiles/main.dir/uart.cpp.o
+2021-05-13 07:31:45 [ INFO ] [ 88%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2021-05-13 07:31:50 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2021-05-13 07:31:51 [ INFO ] [100%] Built target main
+2021-05-13 07:31:51 [ INFO ] sample-handposeRC build successfully.
+2021-05-15 00:30:57 [ INFO ] Build command: 
+2021-05-15 00:30:57 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && rm -rf * && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-15 00:30:58 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2021-05-15 00:30:58 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2021-05-15 00:30:58 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2021-05-15 00:30:58 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2021-05-15 00:30:58 [ INFO ] -- Detecting C compiler ABI info
+2021-05-15 00:30:59 [ INFO ] -- Detecting C compiler ABI info - done
+2021-05-15 00:30:59 [ INFO ] -- Detecting C compile features
+2021-05-15 00:30:59 [ INFO ] -- Detecting C compile features - done
+2021-05-15 00:30:59 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2021-05-15 00:30:59 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2021-05-15 00:30:59 [ INFO ] -- Detecting CXX compiler ABI info
+2021-05-15 00:30:59 [ INFO ] -- Detecting CXX compiler ABI info - done
+2021-05-15 00:30:59 [ INFO ] -- Detecting CXX compile features
+2021-05-15 00:30:59 [ INFO ] -- Detecting CXX compile features - done
+2021-05-15 00:30:59 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-15 00:30:59 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-15 00:30:59 [ INFO ] -- Configuring done
+2021-05-15 00:30:59 [ INFO ] -- Generating done
+2021-05-15 00:30:59 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-15 00:31:00 [ INFO ] Scanning dependencies of target main
+2021-05-15 00:31:00 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2021-05-15 00:31:11 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2021-05-15 00:31:17 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2021-05-15 00:31:22 [ INFO ] [ 44%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-05-15 00:31:28 [ INFO ] [ 55%] Building CXX object src/CMakeFiles/main.dir/handpose_decode.cpp.o
+2021-05-15 00:31:28 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/main.dir/i2c.cpp.o
+2021-05-15 00:31:34 [ INFO ] [ 77%] Building CXX object src/CMakeFiles/main.dir/uart.cpp.o
+2021-05-15 00:31:40 [ INFO ] [ 88%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2021-05-15 00:31:48 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2021-05-15 00:31:49 [ INFO ] [100%] Built target main
+2021-05-15 00:31:49 [ INFO ] sample-handposeRC build successfully.
+2021-05-15 02:02:52 [ INFO ] Build command: 
+2021-05-15 02:02:52 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && rm -rf * && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-15 02:02:54 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2021-05-15 02:02:55 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2021-05-15 02:02:55 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2021-05-15 02:02:55 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2021-05-15 02:02:55 [ INFO ] -- Detecting C compiler ABI info
+2021-05-15 02:02:55 [ INFO ] -- Detecting C compiler ABI info - done
+2021-05-15 02:02:55 [ INFO ] -- Detecting C compile features
+2021-05-15 02:02:55 [ INFO ] -- Detecting C compile features - done
+2021-05-15 02:02:55 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2021-05-15 02:02:56 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2021-05-15 02:02:56 [ INFO ] -- Detecting CXX compiler ABI info
+2021-05-15 02:02:56 [ INFO ] -- Detecting CXX compiler ABI info - done
+2021-05-15 02:02:56 [ INFO ] -- Detecting CXX compile features
+2021-05-15 02:02:56 [ INFO ] -- Detecting CXX compile features - done
+2021-05-15 02:02:56 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-15 02:02:56 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-15 02:02:56 [ INFO ] -- Configuring done
+2021-05-15 02:02:56 [ INFO ] -- Generating done
+2021-05-15 02:02:56 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-15 02:02:56 [ INFO ] Scanning dependencies of target main
+2021-05-15 02:02:56 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2021-05-15 02:03:08 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2021-05-15 02:03:14 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2021-05-15 02:03:19 [ INFO ] [ 44%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-05-15 02:03:25 [ INFO ] [ 55%] Building CXX object src/CMakeFiles/main.dir/handpose_decode.cpp.o
+2021-05-15 02:03:26 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/main.dir/i2c.cpp.o
+2021-05-15 02:03:31 [ INFO ] [ 77%] Building CXX object src/CMakeFiles/main.dir/uart.cpp.o
+2021-05-15 02:03:36 [ INFO ] [ 88%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2021-05-15 02:03:41 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2021-05-15 02:03:42 [ INFO ] [100%] Built target main
+2021-05-15 02:03:42 [ INFO ] sample-handposeRC build successfully.
+2021-05-15 02:33:28 [ INFO ] Build command: 
+2021-05-15 02:33:28 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && rm -rf * && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-15 02:33:29 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2021-05-15 02:33:31 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2021-05-15 02:33:31 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2021-05-15 02:33:31 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2021-05-15 02:33:31 [ INFO ] -- Detecting C compiler ABI info
+2021-05-15 02:33:31 [ INFO ] -- Detecting C compiler ABI info - done
+2021-05-15 02:33:31 [ INFO ] -- Detecting C compile features
+2021-05-15 02:33:31 [ INFO ] -- Detecting C compile features - done
+2021-05-15 02:33:31 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2021-05-15 02:33:31 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2021-05-15 02:33:31 [ INFO ] -- Detecting CXX compiler ABI info
+2021-05-15 02:33:32 [ INFO ] -- Detecting CXX compiler ABI info - done
+2021-05-15 02:33:32 [ INFO ] -- Detecting CXX compile features
+2021-05-15 02:33:32 [ INFO ] -- Detecting CXX compile features - done
+2021-05-15 02:33:32 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-15 02:33:32 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-15 02:33:32 [ INFO ] -- Configuring done
+2021-05-15 02:33:32 [ INFO ] -- Generating done
+2021-05-15 02:33:32 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-15 02:33:32 [ INFO ] Scanning dependencies of target main
+2021-05-15 02:33:32 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2021-05-15 02:33:43 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2021-05-15 02:33:48 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2021-05-15 02:33:53 [ INFO ] [ 44%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-05-15 02:33:59 [ INFO ] [ 55%] Building CXX object src/CMakeFiles/main.dir/handpose_decode.cpp.o
+2021-05-15 02:33:59 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/main.dir/i2c.cpp.o
+2021-05-15 02:34:06 [ INFO ] [ 77%] Building CXX object src/CMakeFiles/main.dir/uart.cpp.o
+2021-05-15 02:34:12 [ INFO ] [ 88%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2021-05-15 02:34:17 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2021-05-15 02:34:17 [ INFO ] [100%] Built target main
+2021-05-15 02:34:17 [ INFO ] sample-handposeRC build successfully.
+2021-05-15 02:37:21 [ INFO ] Build command: 
+2021-05-15 02:37:21 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-15 02:37:21 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-15 02:37:21 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-15 02:37:21 [ INFO ] -- Configuring done
+2021-05-15 02:37:21 [ INFO ] -- Generating done
+2021-05-15 02:37:21 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-15 02:37:21 [ INFO ] Scanning dependencies of target main
+2021-05-15 02:37:21 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-05-15 02:37:29 [ INFO ] [ 22%] Linking CXX executable ../../../out/main
+2021-05-15 02:37:30 [ INFO ] [100%] Built target main
+2021-05-15 02:37:30 [ INFO ] sample-handposeRC build successfully.
+2021-05-15 02:56:31 [ INFO ] Build command: 
+2021-05-15 02:56:31 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && rm -rf * && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-05-15 02:56:32 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2021-05-15 02:56:34 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2021-05-15 02:56:34 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2021-05-15 02:56:34 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2021-05-15 02:56:34 [ INFO ] -- Detecting C compiler ABI info
+2021-05-15 02:56:35 [ INFO ] -- Detecting C compiler ABI info - done
+2021-05-15 02:56:35 [ INFO ] -- Detecting C compile features
+2021-05-15 02:56:35 [ INFO ] -- Detecting C compile features - done
+2021-05-15 02:56:35 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2021-05-15 02:56:35 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2021-05-15 02:56:35 [ INFO ] -- Detecting CXX compiler ABI info
+2021-05-15 02:56:36 [ INFO ] -- Detecting CXX compiler ABI info - done
+2021-05-15 02:56:36 [ INFO ] -- Detecting CXX compile features
+2021-05-15 02:56:36 [ INFO ] -- Detecting CXX compile features - done
+2021-05-15 02:56:36 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-05-15 02:56:36 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-05-15 02:56:36 [ INFO ] -- Configuring done
+2021-05-15 02:56:36 [ INFO ] -- Generating done
+2021-05-15 02:56:36 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-05-15 02:56:37 [ INFO ] Scanning dependencies of target main
+2021-05-15 02:56:37 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2021-05-15 02:56:49 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2021-05-15 02:56:55 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2021-05-15 02:57:00 [ INFO ] [ 44%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-05-15 02:57:06 [ INFO ] [ 55%] Building CXX object src/CMakeFiles/main.dir/handpose_decode.cpp.o
+2021-05-15 02:57:06 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/main.dir/i2c.cpp.o
+2021-05-15 02:57:12 [ INFO ] [ 77%] Building CXX object src/CMakeFiles/main.dir/uart.cpp.o
+2021-05-15 02:57:17 [ INFO ] [ 88%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2021-05-15 02:57:23 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2021-05-15 02:57:23 [ INFO ] [100%] Built target main
+2021-05-15 02:57:23 [ INFO ] sample-handposeRC build successfully.
+2021-07-07 00:16:27 [ INFO ] Build command: 
+2021-07-07 00:16:27 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && rm -rf * && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-07-07 00:16:28 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2021-07-07 00:16:28 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2021-07-07 00:16:28 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2021-07-07 00:16:29 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2021-07-07 00:16:29 [ INFO ] -- Detecting C compiler ABI info
+2021-07-07 00:16:29 [ INFO ] -- Detecting C compiler ABI info - done
+2021-07-07 00:16:29 [ INFO ] -- Detecting C compile features
+2021-07-07 00:16:29 [ INFO ] -- Detecting C compile features - done
+2021-07-07 00:16:29 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2021-07-07 00:16:29 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2021-07-07 00:16:29 [ INFO ] -- Detecting CXX compiler ABI info
+2021-07-07 00:16:29 [ INFO ] -- Detecting CXX compiler ABI info - done
+2021-07-07 00:16:29 [ INFO ] -- Detecting CXX compile features
+2021-07-07 00:16:29 [ INFO ] -- Detecting CXX compile features - done
+2021-07-07 00:16:29 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-07-07 00:16:29 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-07-07 00:16:29 [ INFO ] -- Configuring done
+2021-07-07 00:16:29 [ INFO ] -- Generating done
+2021-07-07 00:16:29 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-07-07 00:16:29 [ INFO ] Scanning dependencies of target main
+2021-07-07 00:16:29 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2021-07-07 00:16:34 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2021-07-07 00:16:36 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2021-07-07 00:16:37 [ INFO ] [ 44%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-07-07 00:16:39 [ INFO ] [ 55%] Building CXX object src/CMakeFiles/main.dir/handpose_decode.cpp.o
+2021-07-07 00:16:39 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/main.dir/i2c.cpp.o
+2021-07-07 00:16:41 [ INFO ] [ 77%] Building CXX object src/CMakeFiles/main.dir/uart.cpp.o
+2021-07-07 00:16:43 [ INFO ] [ 88%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2021-07-07 00:16:45 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2021-07-07 00:16:45 [ INFO ] [100%] Built target main
+2021-07-07 00:16:45 [ INFO ] sample-handposeRC build successfully.
+2021-07-07 01:06:40 [ INFO ] Build command: 
+2021-07-07 01:06:40 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-07-07 01:06:40 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-07-07 01:06:40 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-07-07 01:06:40 [ INFO ] -- Configuring done
+2021-07-07 01:06:40 [ INFO ] -- Generating done
+2021-07-07 01:06:40 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-07-07 01:06:40 [ INFO ] Scanning dependencies of target main
+2021-07-07 01:06:40 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-07-07 01:06:42 [ INFO ] [ 22%] Linking CXX executable ../../../out/main
+2021-07-07 01:06:42 [ INFO ] [100%] Built target main
+2021-07-07 01:06:42 [ INFO ] sample-handposeRC build successfully.
+2021-07-07 01:12:51 [ INFO ] Build command: 
+2021-07-07 01:12:51 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-07-07 01:12:51 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-07-07 01:12:51 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-07-07 01:12:51 [ INFO ] -- Configuring done
+2021-07-07 01:12:51 [ INFO ] -- Generating done
+2021-07-07 01:12:51 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-07-07 01:12:51 [ INFO ] Scanning dependencies of target main
+2021-07-07 01:12:51 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-07-07 01:12:53 [ INFO ] [ 22%] Linking CXX executable ../../../out/main
+2021-07-07 01:12:54 [ INFO ] [100%] Built target main
+2021-07-07 01:12:54 [ INFO ] sample-handposeRC build successfully.
+2021-07-07 01:16:40 [ INFO ] Build command: 
+2021-07-07 01:16:40 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-07-07 01:16:40 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-07-07 01:16:40 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-07-07 01:16:40 [ INFO ] -- Configuring done
+2021-07-07 01:16:40 [ INFO ] -- Generating done
+2021-07-07 01:16:40 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-07-07 01:16:41 [ INFO ] Scanning dependencies of target main
+2021-07-07 01:16:41 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-07-07 01:16:44 [ INFO ] [ 22%] Linking CXX executable ../../../out/main
+2021-07-07 01:16:44 [ INFO ] [100%] Built target main
+2021-07-07 01:16:44 [ INFO ] sample-handposeRC build successfully.
+2021-07-07 01:19:57 [ INFO ] Build command: 
+2021-07-07 01:19:57 [ INFO ] export DDK_PATH=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64 && export NPU_HOST_LIB=/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/ascend/sample-handposeRC/build/intermediates && /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake /home/ascend/sample-handposeRC -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo sample-handposeRC build successfully.
+2021-07-07 01:19:57 [ INFO ] -- env INC_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64
+2021-07-07 01:19:57 [ INFO ] -- env LIB_PATH: /home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/lib64/stub
+2021-07-07 01:19:57 [ INFO ] -- Configuring done
+2021-07-07 01:19:57 [ INFO ] -- Generating done
+2021-07-07 01:19:57 [ INFO ] -- Build files have been written to: /home/ascend/sample-handposeRC/build/intermediates
+2021-07-07 01:19:57 [ INFO ] Scanning dependencies of target main
+2021-07-07 01:19:57 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2021-07-07 01:19:59 [ INFO ] [ 22%] Linking CXX executable ../../../out/main
+2021-07-07 01:20:00 [ INFO ] [100%] Built target main
+2021-07-07 01:20:00 [ INFO ] sample-handposeRC build successfully.

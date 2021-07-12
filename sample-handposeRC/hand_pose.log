@@ -1,0 +1,166 @@
+2020-08-17 14:59:37,877-INFO-hand_pose_server.py:222 presenter server is starting...
+2020-08-17 14:59:37,878-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2020-08-17 15:13:56,677-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:43176, fd:12
+2020-08-17 15:13:56,678-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2020-08-17 15:13:56,678-INFO-channel_manager.py:216 register channel: person
+2020-08-17 15:13:56,678-INFO-channel_handler.py:215 create videothread-person...
+2020-08-17 15:13:56,678-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2020-08-17 15:14:38,540-ERROR-presenter_socket_server.py:142 socket 12 receive msg head null
+2020-08-17 15:14:38,540-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-08-17 15:14:38,540-INFO-hand_pose_server.py:60 clean fd:12, conns:{12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.223', 7006), raddr=('192.168.1.2', 43176)>}
+2020-08-17 15:14:38,541-INFO-channel_handler.py:124 videothread-person set _close_thread_switch True
+2020-08-17 15:14:38,541-INFO-channel_manager.py:139 clean channel: person's resource
+2020-08-17 15:14:38,541-INFO-channel_handler.py:226 Stop thread:videothread-person.
+2021-05-06 01:47:03,258-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-06 01:47:03,260-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-06 01:47:32,925-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:47026, fd:15
+2021-05-06 01:47:32,931-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-05-06 01:47:32,932-INFO-channel_manager.py:216 register channel: person
+2021-05-06 01:47:32,933-INFO-channel_handler.py:215 create videothread-person...
+2021-05-06 01:47:32,933-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:15, media_type:video
+2021-05-13 03:04:44,352-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-13 03:04:44,355-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-13 03:11:02,081-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-13 03:11:02,084-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-13 03:12:15,218-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:40984, fd:12
+2021-05-13 03:12:15,223-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-05-13 03:12:15,224-INFO-channel_manager.py:216 register channel: person
+2021-05-13 03:12:15,225-INFO-channel_handler.py:215 create videothread-person...
+2021-05-13 03:12:15,225-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-05-13 03:18:34,932-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-13 03:18:34,934-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-13 03:29:58,756-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-13 03:29:58,758-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-13 03:34:27,507-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-13 03:34:27,510-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-13 08:23:20,145-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-13 08:23:20,148-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-13 08:32:35,836-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:44044, fd:12
+2021-05-13 08:32:35,838-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-05-13 08:32:35,839-INFO-channel_manager.py:216 register channel: person
+2021-05-13 08:32:35,840-INFO-channel_handler.py:215 create videothread-person...
+2021-05-13 08:32:35,843-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-05-13 08:33:21,259-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-13 08:33:21,262-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-13 08:41:09,001-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:44054, fd:15
+2021-05-13 08:41:09,002-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-05-13 08:41:09,002-INFO-channel_manager.py:216 register channel: person
+2021-05-13 08:41:09,003-INFO-channel_handler.py:215 create videothread-person...
+2021-05-13 08:41:09,004-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:15, media_type:video
+2021-05-13 08:47:55,467-ERROR-presenter_socket_server.py:142 socket 15 receive msg head null
+2021-05-13 08:47:55,468-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2021-05-13 08:47:55,468-INFO-hand_pose_server.py:60 clean fd:15, conns:{15: <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.223', 7006), raddr=('192.168.1.2', 44054)>}
+2021-05-13 08:47:55,468-INFO-channel_handler.py:124 videothread-person set _close_thread_switch True
+2021-05-13 08:47:55,469-INFO-channel_manager.py:139 clean channel: person's resource
+2021-05-13 08:47:55,497-INFO-channel_handler.py:226 Stop thread:videothread-person.
+2021-05-13 08:48:53,004-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:44064, fd:12
+2021-05-13 08:48:53,005-INFO-channel_handler.py:215 create videothread-person...
+2021-05-13 08:48:53,005-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-05-15 01:38:32,124-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-15 01:38:32,127-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-15 01:39:00,364-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:51988, fd:12
+2021-05-15 01:39:00,372-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-05-15 01:39:00,373-INFO-channel_manager.py:216 register channel: person
+2021-05-15 01:39:00,376-INFO-channel_handler.py:215 create videothread-person...
+2021-05-15 01:39:00,377-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-05-15 01:55:11,903-INFO-channel_handler.py:124 videothread-person set _close_thread_switch True
+2021-05-15 01:55:11,903-INFO-channel_manager.py:139 clean channel: person's resource
+2021-05-15 01:55:11,905-INFO-channel_handler.py:226 Stop thread:videothread-person.
+2021-05-15 03:04:24,851-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-15 03:04:24,854-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-15 03:04:56,855-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:36786, fd:17
+2021-05-15 03:04:56,858-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-05-15 03:04:56,859-INFO-channel_manager.py:216 register channel: person
+2021-05-15 03:04:56,859-INFO-channel_handler.py:215 create videothread-person...
+2021-05-15 03:04:56,859-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:17, media_type:video
+2021-05-15 03:10:19,499-INFO-channel_handler.py:124 videothread-person set _close_thread_switch True
+2021-05-15 03:10:19,499-INFO-channel_manager.py:139 clean channel: person's resource
+2021-05-15 03:10:19,499-INFO-channel_handler.py:226 Stop thread:videothread-person.
+2021-05-15 03:34:41,081-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-15 03:34:41,084-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-15 03:35:05,510-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:53314, fd:12
+2021-05-15 03:35:05,513-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-05-15 03:35:05,513-INFO-channel_manager.py:216 register channel: person
+2021-05-15 03:35:05,514-INFO-channel_handler.py:215 create videothread-person...
+2021-05-15 03:35:05,514-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-05-15 03:37:41,956-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-15 03:37:41,957-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-15 03:38:00,412-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:53324, fd:12
+2021-05-15 03:38:00,413-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-05-15 03:38:00,414-INFO-channel_manager.py:216 register channel: person
+2021-05-15 03:38:00,415-INFO-channel_handler.py:215 create videothread-person...
+2021-05-15 03:38:00,417-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-05-15 03:58:36,108-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-15 03:58:36,111-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-15 03:59:06,352-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:46522, fd:13
+2021-05-15 03:59:06,356-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-05-15 03:59:06,356-INFO-channel_manager.py:216 register channel: person
+2021-05-15 03:59:06,358-INFO-channel_handler.py:215 create videothread-person...
+2021-05-15 03:59:06,359-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:13, media_type:video
+2021-05-15 04:09:22,557-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-05-15 04:09:22,559-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-05-15 04:09:34,688-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:46532, fd:12
+2021-05-15 04:09:34,689-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-05-15 04:09:34,689-INFO-channel_manager.py:216 register channel: person
+2021-05-15 04:09:34,690-INFO-channel_handler.py:215 create videothread-person...
+2021-05-15 04:09:34,690-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-07-05 23:09:13,367-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-07-05 23:09:13,371-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-07-05 23:09:33,897-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:53720, fd:13
+2021-07-05 23:09:33,898-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-07-05 23:09:33,899-INFO-channel_manager.py:216 register channel: person
+2021-07-05 23:09:33,900-INFO-channel_handler.py:215 create videothread-person...
+2021-07-05 23:09:33,901-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:13, media_type:video
+2021-07-05 23:18:21,162-ERROR-presenter_socket_server.py:142 socket 13 receive msg head null
+2021-07-05 23:18:21,162-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2021-07-05 23:18:21,162-INFO-hand_pose_server.py:60 clean fd:13, conns:{13: <socket.socket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.223', 7006), raddr=('192.168.1.2', 53720)>}
+2021-07-05 23:18:21,162-INFO-channel_handler.py:124 videothread-person set _close_thread_switch True
+2021-07-05 23:18:21,162-INFO-channel_manager.py:139 clean channel: person's resource
+2021-07-05 23:18:21,163-INFO-channel_handler.py:226 Stop thread:videothread-person.
+2021-07-05 23:22:00,955-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:53730, fd:12
+2021-07-05 23:22:00,962-INFO-channel_handler.py:215 create videothread-person...
+2021-07-05 23:22:00,963-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-07-07 01:17:23,884-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-07-07 01:17:23,885-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-07-07 01:17:41,646-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:41642, fd:12
+2021-07-07 01:17:41,650-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-07-07 01:17:41,650-INFO-channel_manager.py:216 register channel: person
+2021-07-07 01:17:41,650-INFO-channel_handler.py:215 create videothread-person...
+2021-07-07 01:17:41,650-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-07-07 02:06:55,537-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-07-07 02:06:55,538-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-07-07 02:07:05,965-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:41652, fd:17
+2021-07-07 02:07:05,966-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-07-07 02:07:05,966-INFO-channel_manager.py:216 register channel: person
+2021-07-07 02:07:05,967-INFO-channel_handler.py:215 create videothread-person...
+2021-07-07 02:07:05,967-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:17, media_type:video
+2021-07-07 02:13:14,607-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:41662, fd:12
+2021-07-07 02:13:14,607-ERROR-presenter_socket_server.py:364 channel path person is busy.
+2021-07-07 02:13:14,608-INFO-hand_pose_server.py:60 clean fd:12, conns:{17: <socket.socket fd=17, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.223', 7006), raddr=('192.168.1.2', 41652)>, 12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.223', 7006), raddr=('192.168.1.2', 41662)>}
+2021-07-07 02:13:43,749-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:41666, fd:12
+2021-07-07 02:13:43,750-ERROR-presenter_socket_server.py:364 channel path person is busy.
+2021-07-07 02:13:43,750-INFO-hand_pose_server.py:60 clean fd:12, conns:{17: <socket.socket fd=17, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.223', 7006), raddr=('192.168.1.2', 41652)>, 12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.223', 7006), raddr=('192.168.1.2', 41666)>}
+2021-07-07 02:14:10,356-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-07-07 02:14:10,356-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-07-07 02:14:21,435-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:41670, fd:12
+2021-07-07 02:14:21,436-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-07-07 02:14:21,436-INFO-channel_manager.py:216 register channel: person
+2021-07-07 02:14:21,436-INFO-channel_handler.py:215 create videothread-person...
+2021-07-07 02:14:21,436-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-07-07 02:16:54,277-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-07-07 02:16:54,278-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-07-07 02:17:06,358-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:41680, fd:12
+2021-07-07 02:17:06,359-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-07-07 02:17:06,359-INFO-channel_manager.py:216 register channel: person
+2021-07-07 02:17:06,359-INFO-channel_handler.py:215 create videothread-person...
+2021-07-07 02:17:06,359-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:12, media_type:video
+2021-07-07 02:20:07,045-INFO-hand_pose_server.py:222 presenter server is starting...
+2021-07-07 02:20:07,046-INFO-presenter_server.py:79 presenter server starting, type: hand_pose
+2021-07-07 02:20:22,163-INFO-presenter_socket_server.py:255 create new connection:client-ip:192.168.1.2, client-port:41690, fd:16
+2021-07-07 02:20:22,163-ERROR-presenter_socket_server.py:354 channel name person is not exist.
+2021-07-07 02:20:22,163-INFO-channel_manager.py:216 register channel: person
+2021-07-07 02:20:22,164-INFO-channel_handler.py:215 create videothread-person...
+2021-07-07 02:20:22,164-INFO-channel_manager.py:127 create channel resource, channel_name:person, channel_fd:16, media_type:video
+2021-07-07 02:28:52,109-INFO-channel_handler.py:124 videothread-person set _close_thread_switch True
+2021-07-07 02:28:52,110-INFO-channel_manager.py:139 clean channel: person's resource
+2021-07-07 02:28:52,110-INFO-channel_handler.py:226 Stop thread:videothread-person.
